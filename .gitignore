@@ -1,0 +1,8 @@
+cat > .gitignore << 'EOF'
+weights.pth
+model.pkl
+*.pth
+*.pkl
+.DS_Store
+.ipynb_checkpoints/
+EOF
